@@ -132,62 +132,61 @@ body{
     margin: 0 auto 20px;
 }
 .impact-container{
-    padding: 20px 80px;
+    padding: 20px 5%;
     margin: none;
     height: max-content;
-    /* position: relative; */
 }
 .impact-body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 1.5rem;
+    column-gap: 2vw;
     align-items: stretch;
 }
 .boxes{
-    z-index: 1;
     background-color: #fff;
-    padding: 10px 10px 30px;
+    padding: 5% 5% 10%;
     text-align: center;
     border-radius: 4%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: -3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxes img{
+    height: 3vw;
 }
 .boxes h1{
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: bolder;
     color: #037dc1;
-    padding: none;
-    padding-top: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
 }
 .boxes h3{
     color: #474747;
-    font-size: 1rem;
+    font-size: 1vw;
     font-weight: 100;
-    padding: 10px 40px;
+    padding: 2% 5%;
 }
 .click{
-    padding: 5px;
+    padding: 0.5vw 1vw;
     border-radius: 5px;
     background-color: #fff;
     border: 2px solid #037dc1;
-    
 }
 .click a {
     color: #037dc1;
     font-weight: 550;
-    padding: 20px;
-    font-size: 1rem;
-  
+    font-size: 1vw;
     margin: auto;
-
 }
 .click:hover{
     background-color: #037dc1;
 }
 .click a:hover{
     color: #fff;
-
 }
 
 .sponsor-container hr{
@@ -252,7 +251,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* background-color: #8ac930; */
 }
 #note {
     margin: 5vh auto;
@@ -421,6 +419,15 @@ em{
         grid-template-rows: repeat(2, 1fr);
         row-gap: 1rem;
     }
+    .impact-body h3{
+        font-size: 2vw;
+    }
+    /* .click{
+        padding: 0.2vw;
+    } */
+    .click a{
+        font-size: 1.4vw;
+    }
     .blah{
         margin: 0 0 50px;
         right: -100px;
@@ -464,14 +471,8 @@ em{
     #check:checked ~ .nav ul{
         left: 0;
     }
-    .impact-container{
-        margin: none;
-        padding: none;
-    }
     .impact-body{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        column-gap: 5vw;
     }
     .blah{
         position: static;
