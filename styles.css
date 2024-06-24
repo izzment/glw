@@ -438,22 +438,52 @@ input{
 
 
 
+.about-header img{
+    height: 26.45vw;
+}
+.about-statement h4{
+    font-size: 4vw;
+    font-weight: 900;
+    margin: auto;
+    color: #037dc1;
+}
 
-
-
-
-.about-heading{
-    height: 80vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+.about-glw{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
-    color: #fff;
-    font-weight: 800;
+    text-align: center;
+    padding: 2rem;
+    gap: 5rem;
+    width: 80%;
+    margin: auto;
+   /*  height: fit-content; */
+}
+.about-statement{
+    width: 60%;
+    margin: 2rem auto;
+    padding: 2rem 4rem;
+    border-left: 6px solid #EF4036;
+}
+.statement h4{
+    font-size: 1.5rem;
+    color: #037dc1;
+    font-weight: 900;
+}
+.founder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    gap: 2rem;
+    height: fit-content;
+    padding: 3rem;
+}
+.founder img{
+    height: 20vw;
 }
 
 
@@ -462,6 +492,61 @@ input{
 
 
 
+
+.vol-header{
+    background-image: url(images/sandy\ background\ banner.png);
+    height: 10vw;
+    color: #fff;
+    font-size: 3vw;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    padding-left: 12.5%;
+}
+.vol-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.vol-right{
+    background-image: url(images/period\ stuff.jpeg);
+    background-size: cover;
+    height: 30vw;
+}
+.vol-right h4{
+    color: #037dc1;
+}
+.login-signup input[type="text"], .login-signup input[type="email"], .login-signup textarea{
+    display: block;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    margin: 20px 0;
+    color: #333;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
+}
+#message{
+    height: 10rem;
+}
+.submitbtn{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 30px 0;
+}
 
 
 
